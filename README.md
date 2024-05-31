@@ -26,3 +26,11 @@ Validation accuracy of PPE model for all classes is mAP= 0.494 and 0.316 for mAP
 
 ### Step4:
 Preform inference on images in test folders using ```inference.py```
+
+Detections by person model.
+
+![](person_ppe_inference/yolov8/person_detection/005086_jpg.rf.291d5c74bfe28c68bde31b4abff7836d.jpg)
+
+Detections by PPE model.
+
+![](person_ppe_inference/yolov8/ppe_detection/005086_jpg.rf.291d5c74bfe28c68bde31b4abff7836d.jpg)
