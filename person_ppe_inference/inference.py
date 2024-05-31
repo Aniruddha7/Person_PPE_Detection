@@ -91,9 +91,6 @@ def main():
 
 if __name__== '__main__':
     main()
- 
-  #cv2_imshow(img_with_boxes)
-#inference('d:/PPE_detection/datasets/test/images/', 'd:/person_ppe_inference/yolov8/', 'd:/person_detection/datasets/weights/person_det_best.pt', 'd:/PPE_detection/datasets/weights/PPE_det_best.pt')
+  
 
-#CLI
 #python inference.py 'D:/PPE_detection/datasets/test/images/' 'D:/person_ppe_inference/yolov8/' 'D:/person_detection/datasets/weights/person_det_best.pt/' 'D:/PPE_detection/datasets/weights/PPE_det_best.pt' 
