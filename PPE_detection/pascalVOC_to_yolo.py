@@ -69,8 +69,4 @@ def main():
 
 if __name__== '__main__':
     main()
-
-
-#convert_xml_to_yolo(xml_file, output)
-#xml_file = r'D:\Person_PPE_detection\datasets\labels'
-#output= r'D:\Person_PPE_detection\datasets'
+           
