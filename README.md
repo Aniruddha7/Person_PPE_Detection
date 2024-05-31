@@ -17,7 +17,7 @@ Object detection of single or multiple objects on Google colab. Since Colab prov
 Convert the xml files to yolo format by only selecting class name tag "person"" in ```PASCALVOC_to_yolo.py``` for person detection model. Repeat the same step for PPE detection model but omit```person``` class name tag and save the rest of the class names. Due to class imbalance, 'glasses', 'ear=protector' and 'safety-harness' classes are dropped during PPE model training. 
 
 ### Step2:
-Both weights ```person_det_best.pt``` and ```PPE_det_best.pt``` are saved in weights folders ```person_detection/datasets/weights``` and ``PPE_detection/datasets/weights```. Both are trained for 70 and 80 epochs respectively.
+Both weights ```person_det_best.pt``` and ```PPE_det_best.pt``` are saved in weights folders ```person_detection/datasets/weights``` and ```PPE_detection/datasets/weights```. Both are trained for 70 and 80 epochs respectively.
 
 ### Step3:
 Evaluate both models on images present in valid folder. 
